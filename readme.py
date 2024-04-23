@@ -23,6 +23,12 @@
 
 # pip install Flask-SQLAlchemy - установка orm SQLAlchemy
 
+# pip install alembic
+# alembic init migrations
+# alembic revision --autogenerate -m 'Добавил новую колонку'
+# alembic upgrade head - применить изменения
+# alembic downpgrade -1 -  откатиться на 1 ветку назад
+
 # pip install python-dotenv - работа с файлом настроек
 
 # pip install flask-login - библиотека для атворизации
